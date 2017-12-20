@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|robots\.txt)$ [NC]
 RewriteRule ^.*$ index.php
-php_value auto_prepend_file /var/www/display_errors.php
+php_value auto_prepend_file /var/www/core/display_errors.php
