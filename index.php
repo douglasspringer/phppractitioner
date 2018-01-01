@@ -1,6 +1,7 @@
 <?php
 
-$database = require '/var/www/core/bootstrap.php';
+require '/var/www/vendor/autoload.php';
+require '/var/www/core/bootstrap.php';
 
 
 
