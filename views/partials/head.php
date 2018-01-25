@@ -1,3 +1,4 @@
+<?php $pathroot = "../"; ?>
 <!doctype html>
 <html>
 <head>
